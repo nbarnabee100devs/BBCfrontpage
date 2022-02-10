@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Your description goes here">
+	<meta name="keywords" content="one, two, three">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>BBC</title>
+
+	<!-- external CSS link -->
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+	<header>
+		<nav>
+
+			<table>
+				<tr>
+					<td><a href="https://www.bbc.com"></a></td>
+					<td><a href="#">Sign in</a></td>
+					<td class="navmargin"> <a href="https://www.bbc.com">Home</a></td>
+					<td class="navmargin"> <a href="https://www.bbc.com/news">News</a></td>
+					<td class="navmargin"> <a href="https://www.bbc.com/sport">Sport</a></td>
+					<td class="navmargin"> <a href="https://www.bbc.com/reel">Reel</a></td>
+					<td class="navmargin"> <a href="https://www.bbc.com/worklife"> Worklife</a></td>
+					<td class="navmargin"> <a href="https://www.bbc.com/travel"> Travel</a></td>
+					<td class="navmargin"> <a href="https://www.bbc.com/future">Future</a></td>
+					<td class="navmargin"> <a href="https://www.bbc.com/culture"> Culture</a></td>
+					<td>
+						<select name="category" id="morestuff">
+							<option value="" disabled selected hidden>More</option>
+							<option value="music">Music</option>
+							<option value="blasters">Blasters</option>
+							<option value="jedi">Old Jedi Masters</option>
+						</select>
+					</td>
+					<td>
+						<form>
+							<label for="search_field">
+								<input type="text" id="search_field" name="search" placeholder="Search">
+							</label>
+						</form>
+					</td>
+				</tr>
+			</table>
+		</nav>
+	</header>
+
+	<main class="clearfix">
+
+		<header class="clearfix">
+			<h2>Welcome to BBC.com</h2>
+			<time datetime=2020-08-13>Thursday, 13 August</time>
+		</header>
+
+		<section class="top-story">
+			<div>
+				<a href="https://www.bbc.com/news/world-middle-east-53770859">
+					<h1>Israel and UAE strike historic peace deal</h1>
+					<p>Israel and the UAE agree to normalise relations, marking the third Israel-Arab peace deal.</p>
+				</a>
+				<a href="https://www.bbc.com/news/world/middle_east">
+					<small class="news">MIDDLE EAST</small></a>
+			</div>
+		</section>
+
+		<section class="side-stories clearfix">
+
+			<section class="us-canada">
+				<div>
+					<a href="https://www.bbc.com/news/world-us-canada-53742684">
+						<h3>Americans, go home: Tension at Canada-US border</h3>
+					</a>
+					<a href="https://www.bbc.com/news/world/us_and_canada">
+						<small class="north">CANADA</small></a>
+				</div>
+			</section>
+
+			<section class="covid">
+				<div>
+					<a href="https://www.bbc.com/news/health-53741966">
+						<h3>How will the world vaccinate seven billion people?</h3>
+					</a>
+					<a href="https://www.bbc.com/news/health">
+						<small class="news">HEALTH</small></a>
+				</div>
+			</section>
+
+			<section class="gyms">
+				<div>
+					<a href="https://www.bbc.com/worklife/article/20200812-the-online-work-gyms-that-help-spur-productivity">
+						<h3>The online 'productivity gyms'</h3>
+					</a>
+					<a href="https://www.bbc.com/news/worklife">
+						<small class="social">WORKLIFE</small></a>
+				</div>
+			</section>
+
+			<section class="victor">
+				<div>
+					<a href="https://www.bbc.com/mundo/ultimas_noticias/2013/09/130913_ultnot_victor_jara_aniversario_cch">
+						<h3>The folk singer murdered for his music</h3>
+					</a>
+					<a href="https://www.bbc.com/news/culture">
+						<small class="culture">CULTURE</small></a>
+				</div>
+			</section>
+
+		</section>
+
+	</main>
+
+	<section class="secondary-stories clearfix">
+		<header>
+			<a href="https://www.bbc.com/news"><small class="news">News</small></a>
+		</header>
+		<section class="bidenharris">
+			<a href="https://www.bbc.com/news/election-us-2020-53754294">
+				<img src="./images/bidenharris.jpg"
+					alt="US Presidential candidate Joe Biden and Vice-Presidential candidate Kamala Harris">
+				<h3>Biden and Harris say Trump has left US 'in tatters'</h3>
+			</a>
+			<p>Joe Biden and running mate Kamala Harris call President Donald Trump a "whining" incompetent leader.</p>
+			<a href="https://www.bbc.com/news/world/us_and_canada">
+				<small class="news">ELECTION 2020</small></a>
+		</section>
+
+		<section class="belarus">
+			<a href="https://www.bbc.com/news/world-europe-53761747">
+				<img src="./images/protest.jpg" alt="Women dressed in white form a human chain during a demonstration">
+				<h3>Women form 'solidarity chains' in Belarus protests</h3>
+			</a>
+			<p>Women take to the streets of Minsk dressed in white as they demand an end to police brutality.</p>
+			<a href="https://www.bbc.com/news/world/europe">
+				<small class="news">EUROPE</small></a>
+		</section>
+
+		<section class="trump">
+			<a href="https://www.bbc.com/news/world-us-canada-53761744">
+				<img src="./images/trump.jpg" alt="US President Donald Trump">
+				<h3>Trump says low-pressure shower heads won't wash</h3>
+			</a>
+			<p>The US calls for rules to be eased after Donald Trump complained of issues washing his hair.</p>
+			<a href="https://www.bbc.com/news/world/us_and_canada">
+				<small class="news">US &amp; CANADA</small></a>
+		</section>
+	</section>
+
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
